@@ -10,20 +10,24 @@ for (let i = 0; i <= 100; i++) {
 
 console.log(`The sum of numbers from 1 to 100 is : ${sum}`);
 
+let sumOdd = 0;
+
 for (let i = 1; i <= 100; i = i + 2) {
     let sq;
     sq = i * i;
     console.log(`The square of odd number ${i} is: ${sq}`);
-    sum += sq;
+    sumOdd += sq;
 }
 
-console.log(`The sum of squares of odd numbers is: ${sum}`);
+console.log(`The sum of squares of odd numbers is: ${sumOdd}`);
+
+let sumEven = 0;
 
 for (let i = 0; i <= 100; i = i + 2) {
     let sq;
     sq = i * i;
     console.log(`The square of even number ${i} is: ${sq}`);
-    sum += sq;
+    sumEven += sq;
 }
 
-console.log(`The sum of squares of even numbers is: ${sum}`);
+console.log(`The sum of squares of even numbers is: ${sumEven}`);
