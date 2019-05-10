@@ -1,2 +1,3 @@
-# javascript_w2
-Javascript Week 2 Studygroup Homework
+# javascript_module-1.2.2
+
+JavaScript for-Loop
