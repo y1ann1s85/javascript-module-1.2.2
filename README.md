@@ -1,3 +1,3 @@
-# javascript-module-1.2.2
+# js-module-1.2.2-forLoop
 
 JavaScript for-Loop
